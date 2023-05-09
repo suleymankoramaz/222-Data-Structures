@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"AList","l":"Account"},{"l":"All Classes","url":"allclasses-index.html"},{"p":"AList","l":"Comment"},{"p":"AList","l":"Interaction"},{"p":"AList","l":"Like"},{"p":"AList","l":"Message"},{"p":"AList","l":"Post"},{"p":"AList","l":"TestClass1"},{"p":"AList","l":"TestClass2"},{"p":"AList","l":"TestClass3"},{"p":"AList","l":"TestClass4"}]
