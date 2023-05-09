@@ -1,0 +1,175 @@
+...Creating accounts...
+An account with username gizemsungu has been created.
+An account with username sibelgulmez has been created.
+An account with username gokhankaya has been created.
+...Loggin into an account (username: sibelgulmez)...
+...Sharing two posts...
+...Following gizemsungu and gokhankaya...
+...Logging out from account 'sibelgulmez'...
+...Logging into another account (username: gokhankaya)...
+...Viewing sibelgulmez's profile...
+--------------------------
+User ID: 2
+Username: sibelgulmez
+Location: Istanbul
+Birth Date: 10.03.1995
+sibelgulmez is following 2 account(s) and has 0 follower(s).
+sibelgulmez is following: gokhankaya, gizemsungu, 
+sibelgulmez has 2 posts.
+
+...Viewing sibelgulmez's posts...
+(PostID: 1) sibelgulmez: I like Java.
+(PostID: 2) sibelgulmez: Java the coffee..
+
+...Like a post of sibelgulmez...
+...Adding a comment on a post of sibelgulmez...
+...Following sibelgulmez and gizemsungu...
+...Sending a message to gizemsungu...
+...Logging out from account 'gokhankaya'...
+...Logging into another account (username: gizemsungu)...
+...Checking outbox...
+There is/are 0 messages in the outbox.
+...Checking inbox...
+There is/are 1 messages in the inbox.
+...Viewing inbox...
+----------------------------
+Message ID: 0
+From: gokhankaya
+To: gizemsungu
+Message: This homework is too easy!
+...Viewing sibelgulmez's profile...
+--------------------------
+User ID: 2
+Username: sibelgulmez
+Location: Istanbul
+Birth Date: 10.03.1995
+sibelgulmez is following 2 account(s) and has 1 follower(s).
+sibelgulmez is following: gokhankaya, gizemsungu, 
+sibelgulmez's follower(s): gokhankaya, 
+sibelgulmez has 2 posts.
+
+...Viewing sibelgulmez's posts...
+(PostID: 1) sibelgulmez: I like Java.
+(PostID: 2) sibelgulmez: Java the coffee..
+
+...Viewing sibelgulmez's posts's interactions...
+---------------------------------
+(PostID: 1): I like Java.
+The post was liked by the following account(s): gokhankaya, 
+The post has 1 comment(s)...
+Comment 1: 'gokhankaya' said 'me too!'
+---------------------------------
+(PostID: 2): Java the coffee..
+The post has no likes.
+The post has no comments.
+...Liking sibelgulmez's posts...
+...Viewing sibelgulmez's posts's interactions...
+---------------------------------
+(PostID: 1): I like Java.
+The post was liked by the following account(s): gokhankaya, gizemsungu, 
+The post has 1 comment(s)...
+Comment 1: 'gokhankaya' said 'me too!'
+---------------------------------
+(PostID: 2): Java the coffee..
+The post was liked by the following account(s): gizemsungu, 
+The post has no comments.
+
+
+...SCENARIO 2...
+
+
+
+
+...Try to logging into logged in account (gizemsungu)...
+Account already logged in.
+...Sharing two posts...
+...Logging out from account (gizemsungu)...
+...Logging in into account (sibelgulmez)...
+...Viewing gizemsungu's profile...
+--------------------------
+User ID: 1
+Username: gizemsungu
+Location: Istanbul
+Birth Date: 01.01.2000
+gizemsungu is following 0 account(s) and has 2 follower(s).
+gizemsungu's follower(s): sibelgulmez, gokhankaya, 
+gizemsungu has 2 posts.
+
+...Viewing gizemsungu's posts...
+(PostID: 1) gizemsungu: Online education is too bad..
+(PostID: 2) gizemsungu: I became a Senior Developer!!
+
+...Viewing gizemsungu's posts's interactions...
+---------------------------------
+(PostID: 1): Online education is too bad..
+The post has no likes.
+The post has no comments.
+---------------------------------
+(PostID: 2): I became a Senior Developer!!
+The post has no likes.
+The post has no comments.
+...Liking Post1 of gizemsungu...
+...Logging out from account (sibelgulmez)...
+...Logging in into account (gokhankaya)...
+...Viewing gizemsungu's profile...
+--------------------------
+User ID: 1
+Username: gizemsungu
+Location: Istanbul
+Birth Date: 01.01.2000
+gizemsungu is following 0 account(s) and has 2 follower(s).
+gizemsungu's follower(s): sibelgulmez, gokhankaya, 
+gizemsungu has 2 posts.
+
+...Viewing gizemsungu's posts...
+(PostID: 1) gizemsungu: Online education is too bad..
+(PostID: 2) gizemsungu: I became a Senior Developer!!
+
+...Viewing gizemsungu's posts's interactions...
+---------------------------------
+(PostID: 1): Online education is too bad..
+The post was liked by the following account(s): sibelgulmez, 
+The post has no comments.
+---------------------------------
+(PostID: 2): I became a Senior Developer!!
+The post has no likes.
+The post has no comments.
+...Commenting on Post2 of gizemsungu...
+...Sending message to gizemsungu...
+...Logging out from account (gokhankaya)...
+...Logging in into account (gizemsungu)...
+...Viewing her own profile...
+--------------------------
+User ID: 1
+Username: gizemsungu
+Location: Istanbul
+Birth Date: 01.01.2000
+gizemsungu is following 0 account(s) and has 2 follower(s).
+gizemsungu's follower(s): sibelgulmez, gokhankaya, 
+gizemsungu has 2 posts.
+
+...Viewing her own posts...
+(PostID: 1) gizemsungu: Online education is too bad..
+(PostID: 2) gizemsungu: I became a Senior Developer!!
+
+...Viewing her own posts's interactions...
+---------------------------------
+(PostID: 1): Online education is too bad..
+The post was liked by the following account(s): sibelgulmez, 
+The post has no comments.
+---------------------------------
+(PostID: 2): I became a Senior Developer!!
+The post has no likes.
+The post has 1 comment(s)...
+Comment 1: 'gokhankaya' said 'Nice!'
+...Viewing inbox...
+----------------------------
+Message ID: 0
+From: gokhankaya
+To: gizemsungu
+Message: This homework is too easy!
+Message ID: 1
+From: gokhankaya
+To: gizemsungu
+Message: Hello!
+292745335

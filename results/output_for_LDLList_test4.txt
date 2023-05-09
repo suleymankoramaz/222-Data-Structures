@@ -1,0 +1,356 @@
+...SCENARIO 4...
+
+...Creating accounts...
+
+...UNLIKE...
+
+--------------------------
+User ID: 0
+Username: merve
+Location: Ankara
+Birth Date: 27.07.2000
+merve is following 0 account(s) and has 0 follower(s).
+merve has 1 posts.
+
+
+-----------------------------
+INTERACTIONS BEFORE SULEYMAN LIKE
+
+(PostID: 1) merve: I like Gebze.
+
+---------------------------------
+(PostID: 1): I like Gebze.
+The post has no likes.
+The post has no comments.
+
+-----------------------------
+INTERACTIONS AFTER SULEYMAN LIKE
+
+--------------------------
+User ID: 0
+Username: merve
+Location: Ankara
+Birth Date: 27.07.2000
+merve is following 0 account(s) and has 0 follower(s).
+merve has 1 posts.
+
+
+-----------------------------
+INTERACTIONS BEFORE DOGUKAN LIKE
+
+(PostID: 1) merve: I like Gebze.
+
+---------------------------------
+(PostID: 1): I like Gebze.
+The post was liked by the following account(s): suleyman, 
+The post has no comments.
+
+-----------------------------
+INTERACTIONS AFTER DOGUKAN LIKE
+
+(PostID: 1) merve: I like Gebze.
+
+---------------------------------
+(PostID: 1): I like Gebze.
+The post was liked by the following account(s): suleyman, dogukan, 
+The post has no comments.
+
+-----------------------------
+INTERACTIONS AFTER SULEYMAN UNLIKE POST 1
+
+(PostID: 1) merve: I like Gebze.
+
+---------------------------------
+(PostID: 1): I like Gebze.
+The post was liked by the following account(s): suleyman, dogukan, 
+The post has no comments.
+
+-----------------------------
+INTERACTIONS AFTER DOGUKAN UNLIKE POST 1
+
+(PostID: 1) merve: I like Gebze.
+
+---------------------------------
+(PostID: 1): I like Gebze.
+The post has no likes.
+The post has no comments.
+
+...UNCOMMENT...
+
+--------------------------
+User ID: 9
+Username: emine
+Location: Ankara
+Birth Date: 09.09.2013
+emine is following 0 account(s) and has 0 follower(s).
+emine has 1 posts.
+
+
+-----------------------------
+INTERACTIONS BEFORE GIZEM COMMENT
+
+(PostID: 1) emine: I am Developer.
+
+---------------------------------
+(PostID: 1): I am Developer.
+The post has no likes.
+The post has no comments.
+
+-----------------------------
+INTERACTIONS AFTER GIZEM COMMENT
+
+(PostID: 1) emine: I am Developer.
+
+---------------------------------
+(PostID: 1): I am Developer.
+The post has no likes.
+The post has 1 comment(s)...
+Comment 1: 'gizemsungu' said 'i am gizem'
+--------------------------
+User ID: 9
+Username: emine
+Location: Ankara
+Birth Date: 09.09.2013
+emine is following 0 account(s) and has 0 follower(s).
+emine has 1 posts.
+
+
+-----------------------------
+INTERACTIONS BEFORE SIBEL COMMENT
+
+(PostID: 1) emine: I am Developer.
+
+---------------------------------
+(PostID: 1): I am Developer.
+The post has no likes.
+The post has 1 comment(s)...
+Comment 1: 'gizemsungu' said 'i am gizem'
+
+-----------------------------
+INTERACTIONS AFTER SIBEL COMMENT
+
+--------------------------
+User ID: 9
+Username: emine
+Location: Ankara
+Birth Date: 09.09.2013
+emine is following 0 account(s) and has 0 follower(s).
+emine has 1 posts.
+
+(PostID: 1) emine: I am Developer.
+
+---------------------------------
+(PostID: 1): I am Developer.
+The post has no likes.
+The post has 2 comment(s)...
+Comment 1: 'gizemsungu' said 'i am gizem'
+Comment 2: 'sibelgulmez' said 'i am sibel'
+
+-----------------------------
+INTERACTIONS AFTER GIZEM UNCOMMENT POST 1
+
+--------------------------
+User ID: 9
+Username: emine
+Location: Ankara
+Birth Date: 09.09.2013
+emine is following 0 account(s) and has 0 follower(s).
+emine has 1 posts.
+
+(PostID: 1) emine: I am Developer.
+
+---------------------------------
+(PostID: 1): I am Developer.
+The post has no likes.
+The post has 2 comment(s)...
+Comment 1: 'gizemsungu' said 'i am gizem'
+Comment 2: 'sibelgulmez' said 'i am sibel'
+
+-----------------------------
+INTERACTIONS AFTER SIBEL UNCOMMENT POST 1
+
+(PostID: 1) emine: I am Developer.
+
+---------------------------------
+(PostID: 1): I am Developer.
+The post has no likes.
+The post has no comments.
+
+...UNFOLLOW...
+
+
+-----------------------------
+DOGUKAN'S PROFILE BEFORE FOLLOWING EMRE AND GOKHANKAYA
+
+--------------------------
+User ID: 5
+Username: dogukan
+Location: Istanbul
+Birth Date: 13.07.2001
+dogukan is following 0 account(s) and has 0 follower(s).
+dogukan has 0 posts.
+
+
+-----------------------------
+DOGUKAN'S PROFILE AFTER FOLLOWING EMRE
+
+--------------------------
+User ID: 5
+Username: dogukan
+Location: Istanbul
+Birth Date: 13.07.2001
+dogukan is following 1 account(s) and has 0 follower(s).
+dogukan is following: emre, 
+dogukan has 0 posts.
+
+
+-----------------------------
+DOGUKAN'S PROFILE AFTER FOLLOWING GOKHANKAYA
+
+--------------------------
+User ID: 5
+Username: dogukan
+Location: Istanbul
+Birth Date: 13.07.2001
+dogukan is following 2 account(s) and has 0 follower(s).
+dogukan is following: emre, gokhankaya, 
+dogukan has 0 posts.
+
+
+-----------------------------
+DOGUKAN'S PROFILE AFTER UNFOLLOWING EMRE
+
+--------------------------
+User ID: 5
+Username: dogukan
+Location: Istanbul
+Birth Date: 13.07.2001
+dogukan is following 2 account(s) and has 0 follower(s).
+dogukan is following: emre, gokhankaya, 
+dogukan has 0 posts.
+
+
+-----------------------------
+DOGUKAN'S PROFILE AFTER UNFOLLOWING GOKHANKAYA
+
+--------------------------
+User ID: 5
+Username: dogukan
+Location: Istanbul
+Birth Date: 13.07.2001
+dogukan is following 0 account(s) and has 0 follower(s).
+dogukan has 0 posts.
+
+
+...UNBLOCK...
+
+
+-----------------------------
+BILAL FOLLOWING EMINE
+
+
+-----------------------------
+FATMA FOLLOWING EMINE
+
+
+-----------------------------
+EMINE VIEW BILAL'S PROFILE BEFORE BLOCK AND BLOCK
+
+--------------------------
+User ID: 8
+Username: bilal
+Location: Istanbul
+Birth Date: 20.07.2005
+bilal is following 1 account(s) and has 0 follower(s).
+bilal is following: emine, 
+bilal has 0 posts.
+
+
+-----------------------------
+EMINE VIEW FATMA'S PROFILE BEFORE BLOCK AND BLOCK
+
+--------------------------
+User ID: 7
+Username: fatma
+Location: Istanbul
+Birth Date: 07.01.2001
+fatma is following 1 account(s) and has 0 follower(s).
+fatma is following: emine, 
+fatma has 0 posts.
+
+
+-----------------------------
+BILAL TRY TO VIEW EMINE'S PROFILE
+
+You do not have permission to see this profile.
+
+
+-----------------------------
+FATMA TRY TO VIEW EMINE'S PROFILE
+
+You do not have permission to see this profile.
+
+
+-----------------------------
+EMINE UNBLOCK BILAL
+
+
+-----------------------------
+BILAL TRY TO VIEW EMINE'S PROFILE
+
+You do not have permission to see this profile.
+
+
+-----------------------------
+EMINE UNBLOCK FATMA
+
+
+-----------------------------
+FATMA TRY TO VIEW EMINE'S PROFILE
+
+--------------------------
+User ID: 9
+Username: emine
+Location: Ankara
+Birth Date: 09.09.2013
+emine is following 0 account(s) and has 0 follower(s).
+emine has 1 posts.
+
+
+-----------------------------
+BILAL TRY TO VIEW EMINE'S PROFILE
+
+--------------------------
+User ID: 9
+Username: emine
+Location: Ankara
+Birth Date: 09.09.2013
+emine is following 0 account(s) and has 0 follower(s).
+emine has 1 posts.
+
+
+-----------------------------
+MERVE TRY TO VIEW HISTORY WITHOUT LOGIN
+
+You should login first.
+
+-----------------------------
+EMINE TRY TO VIEW HISTORY WITH LOGIN
+
+You logged in.
+You share post: ID = 1
+You logged out.
+You logged in.
+You blocked bilal
+You blocked fatma
+You logged out.
+You logged in.
+You unblocked bilal
+You logged out.
+You logged in.
+You unblocked fatma
+You logged out.
+You logged in.
+
+-----------------------------
+438873461
